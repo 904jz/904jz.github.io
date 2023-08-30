@@ -2,7 +2,7 @@
 body{
     display: block;
     overflow-x: hidden;
-    
+    padding: 60px;
 }
 
 nav{
@@ -65,11 +65,14 @@ button{
     margin-top: 100px;
 }
 
-#hero .img{
-    max-width: 130% !important;
-    width: 130%;
+/* #hero .img{
+    max-width: 50% !important;
+    width: 50%;
+} */
+#header {
+    max-width: 125%;
+    max-height: 125%;
 }
-
 /* Styling for the cards */
 #hero .card{
     box-shadow: 11px 7px 16px #f9f9f9;
